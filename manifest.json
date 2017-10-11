@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "Soundbyte: Soundcloud Mini Player",
+  "description": "An extension allowing in-page souncloud search and playback.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+    "default_title": "Click to stream music!"
+  },
+  "permissions": [
+    "tabs",
+    "alarms",
+    "https://soundcloud.com/*"
+  ]
+}
